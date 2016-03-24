@@ -18,5 +18,5 @@ The simplest way to use shifty is to use the builtin operator overloading functi
 ```Arduino
 shifty = 0b11100010; //sends a binary "11100010" to the shift register
 ```
-An example is given in [Shift595_test.ino](https://github.com/aaronschraner/shifty/Shift595_test.ino).
+An example is given in [Shift595_test.ino](https://github.com/aaronschraner/shifty/blob/master/Shift595_test.ino).
 
