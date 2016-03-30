@@ -29,9 +29,10 @@ void setup() {
   Shift595 myShifter(clock, data, clear, latch, NOPIN);
   
   while (true)
-    for (int i = 0; i < 10; i++)
+    for (int i = 0; i < 16; i++)
     {
       myShifter = ~sevseg(i);
+      clock = LOW;
       delay(1000);
     }
 
